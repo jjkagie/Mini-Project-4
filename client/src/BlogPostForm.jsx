@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 import axios from "axios"
-const url = "https://mini-project-4-backend.onrender.com/"
+const url = "https://mini-project-4-backend.onrender.com:5000/"
 
 function BlogPostForm(props){
     const [user, setUser] = useState("");

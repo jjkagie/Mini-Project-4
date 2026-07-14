@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import axios from 'axios'
-const url = "https://mini-project-4-backend.onrender.com/"
+const url = "https://mini-project-4-backend.onrender.com:5000/"
 
 function Signup() {
     const [userData, setUserData] = useState({
