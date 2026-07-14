@@ -1,0 +1,42 @@
+body {
+    background-color: #AACDDC
+}
+
+.posts {
+    table-layout: fixed;
+    width: auto;
+    
+}
+
+.table-container {
+    background-color: #81A6C6;
+    margin-bottom: 1em;
+}
+
+.post {
+    overflow-wrap: break-word;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.title {
+    font-style: italic;
+}
+
+.signupForm {
+    margin: 5px auto;
+}
+
+.loginForm {
+    margin: 5px auto;
+}
+
+.accountForm {
+    margin: 5px auto;
+}
+
+.accountLink {
+    margin-bottom: 10px;
+}
