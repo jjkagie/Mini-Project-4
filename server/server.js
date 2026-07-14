@@ -38,7 +38,8 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 // CHANGE TO ACTUAL URL IN PROD
 app.use( cors({
-    origin: 'http://localhost:3000'
+    origin: 'https://mini-project-4-6uwr.onrender.com'
+    //origin: 'http://localhost:3000'
 }));
 
 app.get("/", async (req, res) => {
