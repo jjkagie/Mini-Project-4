@@ -3,18 +3,18 @@ import bodyParser from "body-parser"
 import pg from "pg"
 import md5 from "md5"
 import cors from "cors"
-/*
+
 //  USED FOR CONNECTING TO RENDER DB
 const db = new pg.Client({
-    user: "blog_app_db_ogaq_user",
-    host: "dpg-d907svernols73eej440-a",
-    database: "blog_app_db_ogaq",
-    password: "Sn2VPpzWWDrJDj0pF4FNRbzGl3sBcFRy",
+    user: "project_4_db_np8c_user",
+    host: "dpg-d9asmleq1p3s73d9u1h0-a",
+    database: "project_4_db_np8c",
+    password: "Z4VP8um83ypYR3h8rSJilM8faFb5ZKgW",
     port: 5432
 });
-*/
 
 
+/*
 //  USED FOR CONNECTING TO LOCAL DB
 const db = new pg.Client({
     user: "postgres",
@@ -23,7 +23,7 @@ const db = new pg.Client({
     password: "*IK(OL8ik9ol",
     port: 5432
 });
-
+*/
 
 db.connect();
 const app = express();

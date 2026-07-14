@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom'
 import axios from "axios"
 import BlogPostForm from './BlogPostForm'
 import PostList from './PostList'
-const url = "http://localhost:5000/"
+const url = "https://mini-project-4-backend.onrender.com/"
 
 function Home() {
     const navigate = useNavigate();
